@@ -1,0 +1,24 @@
+theme = "catppuccin_mocha"
+#theme = "tokyonight_storm"
+#theme = "autumn"
+#theme = "autumn_night"
+
+[editor]
+true-color = true
+# line-number = "relative"
+rulers = [120]
+shell = ["zsh", "-c"]
+bufferline = "always"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[keys.normal]
+esc = ["collapse_selection", "keep_primary_selection"]
+C-p = ["move_line_up", "scroll_up"]
+C-n = ["move_line_down", "scroll_down"]
